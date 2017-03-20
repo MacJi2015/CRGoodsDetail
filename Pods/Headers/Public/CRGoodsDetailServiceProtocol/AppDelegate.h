@@ -1,0 +1,1 @@
+../../../CRGoodsDetailServiceProtocol/CRGoodsDetailServiceProtocol/AppDelegate.h

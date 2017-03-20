@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		426BCF2EF91777CBD64D6CF9 /* libPods-CRGoodsDetail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5E5156F19E353C94DB8753 /* libPods-CRGoodsDetail.a */; };
 		B85F04191E7FD3D900B211F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B85F04181E7FD3D900B211F1 /* main.m */; };
 		B85F041C1E7FD3D900B211F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B85F041B1E7FD3D900B211F1 /* AppDelegate.m */; };
 		B85F041F1E7FD3D900B211F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85F041E1E7FD3D900B211F1 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		B85F04271E7FD3D900B211F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85F04251E7FD3D900B211F1 /* LaunchScreen.storyboard */; };
 		B85F04321E7FD3D900B211F1 /* CRGoodsDetailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B85F04311E7FD3D900B211F1 /* CRGoodsDetailTests.m */; };
 		B85F043D1E7FD3D900B211F1 /* CRGoodsDetailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B85F043C1E7FD3D900B211F1 /* CRGoodsDetailUITests.m */; };
+		B85F04531E7FD57B00B211F1 /* CRGoodsDetailServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = B85F04521E7FD57B00B211F1 /* CRGoodsDetailServiceProvide.m */; };
+		B85F04561E7FD59B00B211F1 /* CRGoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85F04551E7FD59B00B211F1 /* CRGoodsDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F5E5156F19E353C94DB8753 /* libPods-CRGoodsDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRGoodsDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED880BCF46ABADD5500319A /* Pods-CRGoodsDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRGoodsDetail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRGoodsDetail/Pods-CRGoodsDetail.debug.xcconfig"; sourceTree = "<group>"; };
 		B85F04141E7FD3D900B211F1 /* CRGoodsDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRGoodsDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85F04181E7FD3D900B211F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B85F041A1E7FD3D900B211F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,11 @@
 		B85F04381E7FD3D900B211F1 /* CRGoodsDetailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRGoodsDetailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85F043C1E7FD3D900B211F1 /* CRGoodsDetailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRGoodsDetailUITests.m; sourceTree = "<group>"; };
 		B85F043E1E7FD3D900B211F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85F04511E7FD57B00B211F1 /* CRGoodsDetailServiceProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRGoodsDetailServiceProvide.h; path = CRGoodsDetail/CRGoodsDetailServiceProvide.h; sourceTree = "<group>"; };
+		B85F04521E7FD57B00B211F1 /* CRGoodsDetailServiceProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRGoodsDetailServiceProvide.m; path = CRGoodsDetail/CRGoodsDetailServiceProvide.m; sourceTree = "<group>"; };
+		B85F04541E7FD59B00B211F1 /* CRGoodsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRGoodsDetailViewController.h; path = CRGoodsDetail/CRGoodsDetailViewController.h; sourceTree = "<group>"; };
+		B85F04551E7FD59B00B211F1 /* CRGoodsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRGoodsDetailViewController.m; path = CRGoodsDetail/CRGoodsDetailViewController.m; sourceTree = "<group>"; };
+		E4424BA8E08A4EDA8B1AE6D6 /* Pods-CRGoodsDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRGoodsDetail.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRGoodsDetail/Pods-CRGoodsDetail.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				426BCF2EF91777CBD64D6CF9 /* libPods-CRGoodsDetail.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		450FC4C23FB835144EB8A007 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ED880BCF46ABADD5500319A /* Pods-CRGoodsDetail.debug.xcconfig */,
+				E4424BA8E08A4EDA8B1AE6D6 /* Pods-CRGoodsDetail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8274E9EB1D4AF89087CAFA13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F5E5156F19E353C94DB8753 /* libPods-CRGoodsDetail.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B85F040B1E7FD3D900B211F1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				B85F04301E7FD3D900B211F1 /* CRGoodsDetailTests */,
 				B85F043B1E7FD3D900B211F1 /* CRGoodsDetailUITests */,
 				B85F04151E7FD3D900B211F1 /* Products */,
+				450FC4C23FB835144EB8A007 /* Pods */,
+				8274E9EB1D4AF89087CAFA13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +131,7 @@
 		B85F04161E7FD3D900B211F1 /* CRGoodsDetail */ = {
 			isa = PBXGroup;
 			children = (
+				B85F044D1E7FD52F00B211F1 /* CRGoodsDetail */,
 				B85F041A1E7FD3D900B211F1 /* AppDelegate.h */,
 				B85F041B1E7FD3D900B211F1 /* AppDelegate.m */,
 				B85F041D1E7FD3D900B211F1 /* ViewController.h */,
@@ -140,6 +171,17 @@
 			path = CRGoodsDetailUITests;
 			sourceTree = "<group>";
 		};
+		B85F044D1E7FD52F00B211F1 /* CRGoodsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B85F04511E7FD57B00B211F1 /* CRGoodsDetailServiceProvide.h */,
+				B85F04521E7FD57B00B211F1 /* CRGoodsDetailServiceProvide.m */,
+				B85F04541E7FD59B00B211F1 /* CRGoodsDetailViewController.h */,
+				B85F04551E7FD59B00B211F1 /* CRGoodsDetailViewController.m */,
+			);
+			name = CRGoodsDetail;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B85F04411E7FD3D900B211F1 /* Build configuration list for PBXNativeTarget "CRGoodsDetail" */;
 			buildPhases = (
+				0EDBB2339C8E88D410889845 /* [CP] Check Pods Manifest.lock */,
 				B85F04101E7FD3D900B211F1 /* Sources */,
 				B85F04111E7FD3D900B211F1 /* Frameworks */,
 				B85F04121E7FD3D900B211F1 /* Resources */,
+				CED09FB05AC31EDB64279097 /* [CP] Embed Pods Frameworks */,
+				9DDA43B5678AB1961B22D6A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,13 +316,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EDBB2339C8E88D410889845 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DDA43B5678AB1961B22D6A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRGoodsDetail/Pods-CRGoodsDetail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CED09FB05AC31EDB64279097 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRGoodsDetail/Pods-CRGoodsDetail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B85F04101E7FD3D900B211F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85F04561E7FD59B00B211F1 /* CRGoodsDetailViewController.m in Sources */,
 				B85F041F1E7FD3D900B211F1 /* ViewController.m in Sources */,
 				B85F041C1E7FD3D900B211F1 /* AppDelegate.m in Sources */,
+				B85F04531E7FD57B00B211F1 /* CRGoodsDetailServiceProvide.m in Sources */,
 				B85F04191E7FD3D900B211F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +518,7 @@
 		};
 		B85F04421E7FD3D900B211F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED880BCF46ABADD5500319A /* Pods-CRGoodsDetail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EN77U3K3VN;
@@ -435,6 +531,7 @@
 		};
 		B85F04431E7FD3D900B211F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4424BA8E08A4EDA8B1AE6D6 /* Pods-CRGoodsDetail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EN77U3K3VN;
